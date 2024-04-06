@@ -1,0 +1,27 @@
+{
+  "name": "02-api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch --env-file .env src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^20.12.5",
+    "eslint": "^8.57.0",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4"
+  }
+}
